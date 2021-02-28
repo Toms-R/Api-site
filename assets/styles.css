@@ -1,0 +1,50 @@
+body {
+    background-color:dodgerblue;
+}
+
+.wrapper{ 
+    width: 350px;
+    margin-top: 100px;
+    padding: 20px;
+    background: darkorange;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+ }
+
+ .wrapper h2 {
+    font-family: 'Glegoo';font-size: 36px;
+ }
+
+ .wrapper p {
+    font-family: 'Glegoo';font-size: 16px;
+ }
+
+.wrapper a {
+    color: blue;
+    font-family: 'Glegoo';font-size: 16px;
+}
+
+.form-group label {
+    color: blue;
+    font-family: 'Glegoo';font-size: 16px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: blue;
+    border-color: blue;
+}
+.header-top {
+    background-color: darkorange;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.header-top  a{
+    float: right;
+    margin: 8px;
+    padding-right: 10px;
+    color: blue;
+    font-family: 'Nothing You Could Do';font-size: 16px;
+}
