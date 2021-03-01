@@ -1,10 +1,10 @@
 var data = {
-  resource_id: 'd499d2f0-b1ea-4ba2-9600-2c701b03bd4a'
+  resource_id: '51725018-49f3-40d1-9280-2b13219e026f'
 };
 $.ajax({
   url: 'https://data.gov.lv/dati/lv/api/3/action/datastore_search',
   data: data,
-  dataType: 'jsonp',
+  dataType: 'json',
   success: function(data) {
     alert('Total results found: ' + data.result.total)
   }
