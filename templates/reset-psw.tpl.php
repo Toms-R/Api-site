@@ -5,7 +5,7 @@
     <div class="wrapper">
         <h2>Mainīt paroli</h2>
         <p>Aizpildi šo formu, lai mainītu paroli</p>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post"> 
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($new_password_err)) ? 'has-error' : ''; ?>">
                 <label>Jaunā parole</label>
                 <input type="password" name="new_password" class="form-control" value="<?php echo $new_password; ?>">
@@ -21,9 +21,9 @@
                 <a class="btn btn-link" href="welcome.php">Atcelt</a>
             </div>
         </form>
-    </div> 
     </div>
     </div>
-    </div>   
+    </div>
+    </div>
 </body>
 </html>
