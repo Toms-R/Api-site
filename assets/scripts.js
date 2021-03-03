@@ -207,14 +207,3 @@ let options = {
 };
 
 //let newChart = new Chart(ctx).HeatMap(data3);
-
-for (let i = 0; i < 10; i++) {
-    if (i == 1) {
-      continue;
-    }
-    if (i < 5) {
-      console.log("cau");
-    } else {
-      console.log("ata");
-    }
-}
