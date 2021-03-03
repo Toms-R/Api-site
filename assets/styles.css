@@ -11,6 +11,14 @@ body {
     box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
  }
 
+ h1 {
+    font-family: 'Dosis';
+ }
+
+ h3 {
+    font-family: 'Dosis';
+ }
+
  .wrapper h2 {
     font-family: 'Glegoo';font-size: 36px;
  }
@@ -46,5 +54,121 @@ body {
     margin: 8px;
     padding-right: 10px;
     color: blue;
-    font-family: 'Nothing You Could Do';font-size: 16px;
+    font-family: 'Dosis';
+    font-size: 16px;
+}
+.header-top p {
+    float: left;
+    margin: 8px;
+    padding-right: 10px;
+    color: blue;
+    font-family: 'Dosis';
+    font-size: 16px;
+}
+
+.sidebar {
+    position: fixed;
+    width: 50px;
+    height: 300px;
+    background-color: darkorange;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    top: 10%;
+
+}
+
+.fas {
+    font-size: 30px;
+    padding: 22px 5px;
+    color: blue;
+}
+
+.nav-link .nav-text {
+  display: inline-block;
+  transform: translateX(-200%);
+  transition: transform .3s ease-in-out;
+  position: fixed;
+  padding:0px 5px;
+  background-color: darkorange;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 30px;
+  font-family: 'Dosis';
+}
+
+.nav-link:hover .nav-text {
+  transform: translateX(0);
+}
+
+.nav-link{
+    padding: 0px;
+}
+
+.testimonials {
+    padding: 60px 0;
+  }
+  .testimonials h3 {
+    margin-bottom: 20px;
+  }
+  .testimonials .card {
+    border-bottom: 3px #007bff solid !important;
+    transition: 0.5s;
+    margin-top: 60px;
+    min-height: 300px;
+  }
+  .testimonials .card i {
+    background-color: darkorange;
+    color: #ffffff;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: -40px auto 0 auto;
+  }
+
+  .test-ic{
+      padding: 0px;
+  }
+
+  #vaccinated {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid darkorange;
+    color: darkorange;
+    text-align: center;
+    font-family: 'Dosis';
+    font-size: 32px;
+}
+
+#tested {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid darkorange;
+    color: darkorange;
+    text-align: center;
+
+    font-family: 'Dosis';
+    font-size: 32px;
+}
+
+#safety-days {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    color: darkorange;
+    text-align: center;
+
+    font-family: 'Dosis';
+    font-size: 32px;
 }
